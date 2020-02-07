@@ -1,0 +1,130 @@
+.header{
+  padding: 125px;
+  position: absolute;
+  left: 100px;
+  text-align: left;
+  fon-size: 20px;
+}
+
+.fixedbox{
+  position: fixed;
+  botton: 20%;
+  left: 0%;
+  top: 0%;
+  border: solid 1px blue;
+  margin: auto;
+  padding: 14px;
+  width: 1890px;
+  height: 100px;
+  background-color: #BA68C8;
+}
+
+.circle {
+  height: 150px;
+  width: 150px;
+  background-color:#3D5AFE ;
+  border-radius: 50%;
+  display: block;
+  position: fixed;
+  top: 50px;
+  left:50px;
+  
+}
+.boxes{
+  position: auto;
+  padding-top: 200px;
+}
+
+.floatBoxperc{
+  position: auto;
+  height: 40px;
+  width: 11%;
+  display: block;
+  float: left;
+  padding: 50px;
+  margin-right: 5px;
+  overflow: visible;
+  top: 200px;
+  left: 200px;
+  border: solid 3px blue;
+}
+.boxes2{
+  position: auto;
+  padding-top: 200px;
+}
+.floatBoxpix{
+  height: 40px;
+  width: 100px;
+  display: block;
+  float: left;
+  clear: right;
+  padding: 50px;
+  margin-right: 5px;
+  overflow: visible;
+  border: solid 3px blue;
+}
+
+.boxes3{
+  position: auto;
+  padding-top: 200px;
+}
+
+.floatBoxcol{
+  height: 75px;
+  width: 15%;
+  display: block;
+  position: relative;
+  margin-right: 200px;
+  overflow: auto;
+  border:solid 3px blue;
+  padding: 20px;
+  text-align: center;
+  z-index: -1;
+}
+#box1 {
+  top:200px;
+  left:-300px;
+}
+#box2 {
+  top:250px;
+  left:-300px;
+}
+#box3 {
+  top:300px;
+  left:335px;
+}
+
+.littleFloater{
+  height: 50px;
+  width: 75px;
+  foat: right;
+  position: fixed;
+  bottom: 0;
+  right:0;
+  padding:10px;
+  margin-right: 4px;
+  border: solid 2px blue;
+}
+
+.footer{
+  position: absolute;
+  left: 0px;
+  bottom:-900px;
+  margin:auto;
+  height: 90px;
+  width: 100%;
+  background-color: #80CBC4;
+  border: solid 2px #00897B;
+  padding: 10px;
+  text-align: center;
+  z-index: -1000;
+}
+
+.showBoxes{
+  padding: 150px;
+  position: absolute;
+  left: 200px;
+  bottom: -950px;
+  text-align: left;
+  z-index: -1000;
+}
